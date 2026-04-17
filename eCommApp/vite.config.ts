@@ -24,8 +24,11 @@ export default defineConfig({
       exclude: [
         'node_modules/',
         'src/test/',
+        'src/main.tsx',
+        'src/types/',
         '**/*.d.ts',
         '**/*.config.*',
+        '**/*.test.*',
         'dist/',
         'coverage/'
       ]
